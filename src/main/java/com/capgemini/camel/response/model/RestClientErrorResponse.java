@@ -17,7 +17,7 @@ public class RestClientErrorResponse {
     public RestClientErrorResponse(String code, String message, String errorType) {
         this.code = code;
         this.message = message;
-        this.errorType = message;
+        this.errorType = errorType;
     }
 
     public String getErrorType() {
